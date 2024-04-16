@@ -4,8 +4,7 @@ import { useEffect, useState } from 'react';
 const useFeatch = (endpoint, query) => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
-// f2cd8143bamsh07ab28d8dfa8264p1e9185jsn67cd3b9c8a62
+  const [error, setError] = useState(null); 
   const options = {
     method: 'GET',
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
